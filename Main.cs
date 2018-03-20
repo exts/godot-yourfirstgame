@@ -25,7 +25,6 @@ public class Main : Node
         hud = GetNode("HUD") as HUD;
 
         //2d paths
-        // modPath = GetNode("ModPath") as Path2D;
         mobSpawnLocation = GetNode("MobPath/MobSpawnLocation") as PathFollow2D;
 
         //player object
