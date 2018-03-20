@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstGameTutorial", "FirstGameTutorial.csproj", "{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	Tools|Any CPU = Tools|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{EFD8FF5C-C8E2-4DAD-B7F7-835AF256EEDC}.Tools|Any CPU.Build.0 = Tools|Any CPU
+	EndGlobalSection
+EndGlobal
