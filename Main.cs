@@ -106,10 +106,4 @@ public class Main : Node
         return (float) (rand.NextDouble() * (max - min) + min);
     }
 
-//    public override void _Process(float delta)
-//    {
-//        // Called every frame. Delta is time since last frame.
-//        // Update game logic here.
-//        
-//    }
 }

@@ -23,26 +23,24 @@ public class Player : Area2D
         collision_shape = GetNode("CollisionShape2D") as CollisionShape2D;
         screensize = GetViewport().GetSize();
         this.Hide();
-
-        // AddUserSignal("hit");
     }
 
    public override void _Process(float delta)
    {
         velocity = new Vector2();
-        if(Input.IsActionPressed("ui_right")) {
+        if(Input.IsActionPressed("ui_right") || Input.IsKeyPressed((int)KeyList.D)) {
             velocity.x += 1;
         }
         
-        if(Input.IsActionPressed("ui_left")) {
+        if(Input.IsActionPressed("ui_left") || Input.IsKeyPressed((int)KeyList.A)) {
             velocity.x -= 1;
         }
         
-        if(Input.IsActionPressed("ui_down")) {
+        if(Input.IsActionPressed("ui_down") || Input.IsKeyPressed((int)KeyList.S)) {
             velocity.y += 1;
         }
 
-        if(Input.IsActionPressed("ui_up")) {
+        if(Input.IsActionPressed("ui_up") || Input.IsKeyPressed((int)KeyList.W)) {
             velocity.y -= 1;
         }
 
